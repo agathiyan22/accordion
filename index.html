@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>accordion</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	
+	.main_container
+	{margin:20px auto;
+	width:90%;
+	
+	 }
+	 
+	.container 
+	{width:90%;
+	 padding:0px 0px;
+	background-color:#c3c8cb;
+	}
+	
+	.head_tag 
+	{color:white;
+	display:flex;
+	justify-content:space-between;
+	    align-items: center;
+		padding:10px;
+	 }
+	 
+	 .content
+	 {width:100%;
+	display:none;
+	padding:10px;
+	 background-color:white;
+	  border:1px solid #8a8d8f;}
+	 
+	 .i{
+	 transition:all  ;
+	 padding:10px;}
+	 
+	 .container:hover .content, .container:hover .none{
+	  display:block;}
+	  
+	  
+	container:hover .i{
+	
+	transform:rotate(180deg);}
+	
+	.none{display:none;}
+	
+	.container:hover .show{
+	display:none;}
+	
+</style>
+
+<body>
+
+      <div class="main_container">
+	
+	     <div class="container">
+		   <div class="head_tag">
+		      <h3>Heading section</h3>
+		        <span class="show">+</span>
+		        <span class="none">-</span>
+		   </div>
+		  	 
+	     
+			 <div class="content">
+			 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+			 or a typeface without relying on meaningful content. Lorem ipsum may be used as a</p>
+             </div>		
+            </div>
+			
+			  <div class="container">
+		   <div class="head_tag">
+		      <h3>Heading section</h3>
+		         <span class="show">+</span>
+		        <span class="none">-</span>
+		   </div>
+		  	 
+	     
+			 <div class="content">
+			 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+			 or a typeface without relying on meaningful content. Lorem ipsum may be used as a</p>
+             </div>		
+            </div>
+		
+		
+		  <div class="container">
+		   <div class="head_tag">
+		      <h3>Heading section</h3>
+		        <span class="show">+</span>
+		        <span class="none">-</span>
+		   </div>
+		  	 
+	     
+			 <div class="content">
+			 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document
+			 or a typeface without relying on meaningful content. Lorem ipsum may be used as a</p>
+             </div>		
+            </div>
+		
+		
+			 
+			 
+
+	     
+	  </div>
+</body>
+</html>
